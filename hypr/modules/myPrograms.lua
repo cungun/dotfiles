@@ -5,7 +5,14 @@
 ------------------
 
 return {
-  terminal    = "kitty",
+  terminal = "kitty",
+  nightlight = "hyprsunset",
+
   fileManager = "dolphin",
-  menu        = "hyprlauncher"
+  appLauncher = "hyprlauncher",
+
+  wallpaperDaemon = "awww-daemon",
+  wallpaperManager = "awww",
+
+  browser = "firefox"
 }

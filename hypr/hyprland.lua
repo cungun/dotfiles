@@ -10,7 +10,7 @@ require("modules.myAutostart")
 
 require("modules.myMonitors")
 require("modules.myWindows")
-require("modules.myTheme")
+require("modules.myThemes")
 
 require("modules.myAnimations")
 require("modules.myBindings")
