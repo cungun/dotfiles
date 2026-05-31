@@ -1,0 +1,36 @@
+set nocompatible " Tells Vim NOT to act like Vi
+
+syntax enable " (co-operative)
+" syntax on (aggressive)
+
+filetype plugin on " configures Vim options according to filetype
+filetype indent on " configures idententation according to filetype
+
+let mapleader = " "
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+" Enables incremental and highlight search
+set incsearch
+set hlsearch
+
+" Provides information on exactly what im doing in
+" Vim (i.e. the mode im in, the cmd im typing, & the
+" position of my cursor)
+set showmode
+set showcmd
+set ruler
+
+" Provides a horizontal nav bar to navigate through
+" cmd auto-completion results
+set wildmenu
+
+set number
+set relativenumber
+
+silent! nohlsearch " Clears highlights after sourcing vimrc
+
+nnoremap ; <S-:>| " Remaps ';' to 'SHIFT + :' when in NORMAL mode
+inoremap jk <Esc>| " Remaps 'j, k' to 'ESCAPE' when in INSERT mode
