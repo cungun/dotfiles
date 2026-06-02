@@ -16,19 +16,14 @@ set expandtab
 set incsearch
 set hlsearch
 
-" Provides information on exactly what im doing in
-" Vim (i.e. the mode im in, the cmd im typing, & the
-" position of my cursor)
+" Useful cmds that give info on what im doing in vim
 set showmode
 set showcmd
 set ruler
-
-" Provides a horizontal nav bar to navigate through
-" cmd auto-completion results
-set wildmenu
-
 set number
-set relativenumber
+
+" Provides a horizontal nav bar for cmd auto-completion
+set wildmenu
 
 silent! nohlsearch " Clears highlights after sourcing vimrc
 

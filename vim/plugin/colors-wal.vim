@@ -1,0 +1,1 @@
+/home/flair/.cache/wal/colors-wal.vim
